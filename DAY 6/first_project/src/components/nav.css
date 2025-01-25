@@ -1,0 +1,13 @@
+.navbar{
+    justify-content: space-around;
+    background-color: #160c35;
+    width: 100%;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 10px;  
+}

@@ -1,0 +1,47 @@
+
+body{
+    margin: 50px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.container{
+    width: 603px;
+    border: 2px solid;
+}
+
+.orenge{
+    border: 2px solid orange;
+    background-color: orange;
+
+}
+
+.white{
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.green{
+    border: 2px solid green;
+    background-color: green;
+}
+
+.box{
+    height: 100px;
+    width: 600px;
+}
+
+img{
+    width: 100px;
+}
+.pipe{
+    border: 2px solid;
+    height: 700px;
+    width: 2px;
+    background-color: black;
+}

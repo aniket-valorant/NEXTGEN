@@ -1,0 +1,16 @@
+.card-coll{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer{
+    width: 100%;
+    background-color: #a9a7a7;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel{
+    height: 400px;
+}

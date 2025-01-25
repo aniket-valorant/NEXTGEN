@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groom Registration form</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+
+<body border="1px">
+    <form action="">
+        <img class="newLine" src="image/bg.png" alt=""><br>
+        <h3>For groom</h3>
+        <div class="newLine">
+            <label for="">Name: </label><br>
+            <input class="newLine" type="text" name="first" placeholder="First" id="first">&nbsp;&nbsp;<input
+                type="text" name="last" placeholder="Last" id="last"><br>
+        </div>
+        <div class="newLine">
+            <label for="">Mother Name: </label><br>
+            <input type="text" name="mother" placeholder="first" id="mother"><br>
+        </div>
+        <div class="newLine">
+            <label for="">Contact Number: </label><br>
+            <input type="text" name="Contact" id="Contact"><br>
+        </div>
+        <div class="newLine">
+            <div class="newLine"></div>
+            <Label>Gender:</Label><br>
+            <input type="radio" name="gender" value="Male">
+            <label for="">Male</label><br>
+            <input type="radio" name="gender" value="Female">
+            <label for="">Female</label>
+
+        </div>
+
+        <div class="newLine">
+            <label for="">Religion</label><br>
+            <input type="text" name="religion" id="">
+        </div>
+
+        <div class="newLine">
+            <label for="">Date of Birth:</label><br>
+            <input type="date" name="begin" placeholder="dd-mm-yyyy" 
+            value="" min="1997-01-01" max="2030-12-31">
+        </div>
+
+        <div class="newLin"></div>
+        <h3>Hobby</h3>
+        <input type="checkbox" name="Hobby" value="Painting" id=""><label for="">Painting</label><br>
+        <input type="checkbox" name="Hobby" value="Reading" id=""><label for="">Reading</label><br>
+        <input type="checkbox" name="Hobby" value="Travel" id=""><label for="">Travel</label><br>
+        <input type="checkbox" name="Hobby" value="Playing" id=""><label for="">Playing</label><br>
+
+        <div class="newLine"></div>
+        <label for="">Education</label>&nbsp;<select name="Education" id="Education"  >
+            <option value="B.Tech">B.Tech</option>
+            <option value="Agriculture">Agriculture</option>
+            <option value="Farmacy">Farmacy</option>
+            <option value="Doctor">Doctor</option>
+        </select>
+
+        <h3>Address</h3>
+        <input type="text" placeholder="Street" >
+        <input type="text" placeholder="City"><br>
+        <div class="newLine"></div>
+        <input type="text" placeholder="Pin Code">
+        <input type="text" placeholder="State">
+
+        
+
+        <div class="newLine">
+            <input type="button" value="Submit">
+        </div>
+
+    </form>
+</body>
+
+</html>

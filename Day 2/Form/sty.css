@@ -1,0 +1,19 @@
+.newLine{
+    margin-top: 10px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(255, 0, 230), rgb(0, 55, 255));
+
+}
+
+#bank{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 7px;
+}

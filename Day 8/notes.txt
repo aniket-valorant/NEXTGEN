@@ -1,0 +1,48 @@
+    {
+  "home": {
+    "title": "Welcome to My Website",
+    "description": "This is the home page where you can find the latest updates.",
+    "featured": true,
+    "links": [
+      { "label": "About Us", "url": "/about" },
+      { "label": "Services", "url": "/services" },
+      { "label": "Contact", "url": "/contact" }
+    ]
+  },
+  "card": {
+    "id": 1,
+    "type": "Credit Card",
+    "holderName": "John Doe",
+    "number": "1234-5678-9012-3456",
+    "expiry": "12/28",
+    "cvv": "123"
+  },
+  "order": {
+    "orderId": 101,
+    "items": [
+      { "product": "Laptop", "quantity": 1, "price": 1200.99 },
+      { "product": "Mouse", "quantity": 2, "price": 25.5 }
+    ],
+    "total": 1251.99,
+    "status": "Processing",
+    "deliveryDate": "2025-01-25"
+  },
+  "contact": {
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "+1234567890",
+    "message": "Looking forward to learning more about your services.",
+    "preferredContactMethod": "email"
+  },
+  "profile": {
+    "userId": 202,
+    "name": "Michael Johnson",
+    "email": "michael.johnson@example.com",
+    "username": "michaelj",
+    "bio": "Software developer and tech enthusiast.",
+    "preferences": {
+      "theme": "dark",
+      "notifications": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+
+
+  1 What is css ?
+  css stand for cascading Style Sheet
+  css describe how html element arew displayed on screen
+  
+  2 Wxplain how css work in any website ?
+  CSS can be used for text styling — for example, for changing the color and size of headings and links. It can be used to create a layout — for example, turning a single column of text into a layout with a main content area and a sidebar for related information. It can even be used for effects such as animation
+  
+  3 feature of css ?
+  color
+  Dimension
+  Faster Page rendering
+  Selector 
+  Advance animation
+  Background
+  flex Box
+  transform
+  position
+  responsive
+  hover
+  
+  
+  
+  4 Box Model ?
+  div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  |-----------------------------------------------------|
+  |                                                     |
+  |                                                     |
+  |                                                     |
+  |                                                     |
+  |                                                     |
+  |                                                     |
+  |                                                     |
+  |-----------------------------------------------------|
+
+  
+  5 Layout technique ?
+  flow Layout
+  flex Layout
+  Grid Layout
+  

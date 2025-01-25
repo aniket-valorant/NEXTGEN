@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+#netf{
+    width: 300px;
+}
+
+.heading{
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+}
+
+.cinemas{
+    background-color: #0d152a;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.component{
+    width: 166px;
+    height: 300px;
+    background-color: #d0cece;
+    margin: 10px 3px 5px 10px;
+}
+
+.playbtn{
+    width: 40px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}

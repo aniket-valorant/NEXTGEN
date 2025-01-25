@@ -1,0 +1,19 @@
+body {
+    background-color: #fea743;
+    height: 700px;
+}
+
+.container {
+    border: 5px solid rgb(15, 60, 118);
+    background-color: #54f9b1;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    margin: 2px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

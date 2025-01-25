@@ -1,0 +1,14 @@
+.box
+{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin: 5px;
+}
+
+.container  
+{
+    background-color: #6c6a6a;
+    display: flex;
+    flex-wrap: wrap;
+}

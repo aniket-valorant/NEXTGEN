@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+
+label{
+    font-family:'Courier New', Courier, monospace;
+    font: 20px bolder;
+}
